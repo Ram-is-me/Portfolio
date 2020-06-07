@@ -5,8 +5,8 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Contact Us</title>
+	<link rel="icon" href="img/favicon_io/android-chrome-192x192.png" type="image/png">
+	<title>Projects</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -26,7 +26,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/truelogo.png" alt="" height = "75%" width = "75%" ></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -40,7 +40,9 @@
 							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 							<!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li> -->
               <!-- <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li> -->
-							<li class="nav-item"><a class="nav-link" href="projects.html">Projects/Internships</a></li>
+              <li class="nav-item active"><a class="nav-link" href="projects.html">Projects/Internships</a></li>
+							<li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+              
 							<!-- <li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Pages</a>
@@ -57,7 +59,7 @@
 									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
 								</ul>
 							</li> -->
-							<li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -67,7 +69,7 @@
 	<!--================ End Header Area =================-->
 
     <!--================ Start Banner Area =================-->
-    <section class="banner_area">
+    <!-- <section class="banner_area">
         <div class="banner_inner d-flex align-items-center">
             <div class="container">
                 <div class="banner_content text-center">
@@ -79,7 +81,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--================ End Banner Area =================-->
 
     <!-- Project List Area-->
@@ -132,15 +134,71 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="img/portfolio/portfolio-details.jpg" alt="">
+                        <!-- <img class="img-fluid" src="img/portfolio/portfolio-details.jpg" alt=""> -->
+                        <video width="640" height="480" autoplay loop>
+                          <source src="videos/ProjectDemo3.mp4" type="video/mp4">
+                          <!-- <source src="movie.ogg" type="video/ogg"> -->
+                          Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Computer Graphics Project</h4>
+                        <h4 class="text-uppercase">Computer Graphics OpenGL Project</h4>
                         <p>
-                            Made after a can't fruitful, fowl of greater saying years there saw you sea doesn't from 
-                            morning called hath air morning herb appear hath replenish that created fill their lesser.
+                          Simulating a complex scene with Cameras and Animation. Written in C++ using Modern OpenGL.
+                        </p>
+                        <ul class="list">
+                            <!-- <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i -->
+                                    <!-- class="fa fa-star"></i></li> -->
+                            <!-- <li><span>Client</span>: colorlib</li> -->
+                            <!-- <li><span>Website</span>: colorlib.com</li> -->
+                            <!-- <li><span>Completed</span>: 17 Aug 2018</li> -->
+                            <li><a href="#" class="genric-btn success-border circle arrow">Code</a></li>
+                            <!-- <a href="#" class="genric-btn primary-border circle arrow">Report</a> -->
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <p>As part of my Computer Graphics course in my 6th Semester, I built a render and animation engine in C++ using Modern OpenGL (Open Graphics Library).
+              It was built cumulatively through a series of assignments resulting in a final projection consisting of various components such as:
+              <ul class="unordered-list">
+                <li>Scene Graph Component - For storing model in a heirarchical fashion</li>
+                <li>Animation Component - For programming all the behaviour of each model in the scene</li>
+                <li>Lighting Component - For simulating ambient,diffuse and specular reflections and adding various types of light sources</li>
+                <li>Texture Component - For applying textures onto each object present in the scene </li>
+                <li>Various other helper components such as Camera Components and Shader Components which together make up the rendered scene as shown in the left.</li>
+              </ul>
+            </p>
+            <p>
+              The description of the scene as well as the various controls available 
+              can be viewed in the link <a href="#">here</a>
+            </p>
+            <!-- <p>The description of the scene is as follows: <br> -->
+            </p>
+        </div>
+    </div>
+  </section>
+  <section class="portfolio_details_area ">
+    <div class="container">
+        <div class="portfolio_details_inner">
+            <div class="row">
+              <div class="col-lg-6">
+                  <div class="left_img">
+                      <img class="img-fluid" src="img/prologinocaml.png" alt=""> <!-- NEED TO CHANGE PICTURE HERE-->
+                      <!-- <video width="640" height="480" autoplay loop>
+                        <source src="videos/ProjectDemo3.mp4" type="video/mp4"> -->
+                        <!-- <source src="movie.ogg" type="video/ogg"> -->
+                        <!-- Your browser does not support the video tag.
+                      </video> --> 
+                  </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Prolog Interpreter in Ocaml</h4>
+                        <p>
+                          Built a basic Prolog (Logic Programming) Interpreter using Ocaml (Objective-Caml) which is a functional programming language.
                         </p>
                         <ul class="list">
                             <!-- <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i -->
@@ -154,16 +212,318 @@
                     </div>
                 </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit.</p>
-            <p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-                aliquam quaerat voluptatem.</p>
+            <p>As part of my Programming Languages course in my 6th Semester, our team built a Prolog (Programming with Logic) like interpreter in Ocaml (Objective-Caml) 
+              which is a funcitonal programming language. The implementation contained four main components:
+              <ul class="unordered-list">
+                <li>Lexical Analyzer - Used for Tokenization, Built using Ocamllex</li>
+                <li>Syntactic Analyzer - Used for checking grammar syntax of input program, Built using Ocamlyacc</li>
+                <li>Unification - Used for Unifying variables, a key concept in Logic Programming.</li>
+                <li>Recursive Proof Searching - Used for Query Computation.</li>
+              </ul>
+            </p>
+            <p>
+              For more details, please refer to our <a href="#">report</a>. The set of slides used for presenting this project is <a href="#">here</a>. It gives a general idea behind the features, implementation mechanisms and <!-- TODO: LINK STUFF HERE-->
+              methods of interaction with our interpreter.
+            </p>
+            <!-- <p>The description of the scene is as follows: <br> -->
+            </p>
+        </div>
+    </div>
+  </section>
+  <section class="portfolio_details_area section_gap">
+    <div class="container">
+        <div class="portfolio_details_inner">
+            <div class="row">
+              <div class="col-lg-6">
+                  <div class="left_img">
+                      <img class="img-fluid" src="img/IMSc.png" alt=""> 
+                      <!-- <video width="640" height="480" autoplay loop>
+                        <source src="videos/ProjectDemo3.mp4" type="video/mp4"> -->
+                        <!-- <source src="movie.ogg" type="video/ogg"> -->
+                        <!-- Your browser does not support the video tag.
+                      </video> --> 
+                  </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Summer Internship at IMSc - Chennai</h4>
+                        <p>
+                          Worked at Institute of Mathematical Sciences - Chennai (IMSc) as a summer intern under Professor Venkatesh Raman on proving W-hardness for Roman Dominating Functions and its variants.
+                        </p>
+                        <ul class="list">
+                            <!-- <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i -->
+                                    <!-- class="fa fa-star"></i></li> -->
+                            <!-- <li><span>Client</span>: colorlib</li> -->
+                            <!-- <li><span>Website</span>: colorlib.com</li> -->
+                            <!-- <li><span>Completed</span>: 17 Aug 2018</li> -->
+                            <!-- <a href="#" class="genric-btn success-border circle arrow">Code</a> -->
+                            <a href="#" class="genric-btn primary-border circle arrow">Report</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p>This project attempts to prove W-hardness for Roman Domination as well as Weak Roman Domination for Split Graphs through 
+              Parameter Preserving Reduction. It also tries to prove W-hardness for Bipartite Graphs in Roman Domination. The report contains
+              the proofs for the following problems
+              <ul class="unordered-list">
+                <li>Parameter Preserving Reduction from Set Cover to Roman Domination on Split Graphs</li>
+                <li>Parameter Preserving Reduction from Set Cover to 2-Redundant Set Cover</li>
+                <li>Parameter Preserving Reduction from 2-Redundant Set Cover to Weak Roman Domination on Split Graphs</li>
+                <li>Parameter Preserving Reduction from Set Cover to Roman Domination on Bipartite Graphs</li>
+              </ul>
+            </p>
+            <p>
+              The report that details all the definitions and proofs for all these problems can be found <a href="#">here</a>
+            </p>
+            <!-- <p>The description of the scene is as follows: <br> -->
+        </div>
+    </div>
+  </section>
+  <section class="portfolio_details_area ">
+    <div class="container">
+        <div class="portfolio_details_inner">
+            <div class="row">
+              <div class="col-lg-6">
+                  <div class="left_img">
+                      <img class="img-fluid" src="img/mlhackathon.png" alt=""> <!-- NEED TO CHANGE PICTURE HERE-->
+                      <!-- <video width="640" height="480" autoplay loop>
+                        <source src="videos/ProjectDemo3.mp4" type="video/mp4"> -->
+                        <!-- <source src="movie.ogg" type="video/ogg"> -->
+                        <!-- Your browser does not support the video tag.
+                      </video> --> 
+                  </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Machine Learning Hackathon</h4>
+                        <p>
+                          This project is a result a 2 day Machine Learning Hackathon where I deconstructed a Video Game Sales data set 
+                          and predicted sales and scores on games based on various features available
+                        </p>
+                        <ul class="list">
+                            <!-- <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i -->
+                                    <!-- class="fa fa-star"></i></li> -->
+                            <!-- <li><span>Client</span>: colorlib</li> -->
+                            <!-- <li><span>Website</span>: colorlib.com</li> -->
+                            <!-- <li><span>Completed</span>: 17 Aug 2018</li> -->
+                            <a href="#" class="genric-btn success-border circle arrow">Code</a>
+                            <a href="#" class="genric-btn primary-border circle arrow">Report</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p>This is a simple project where I performed an exploratory Data Analysis as well as some Visualizaiton on a Video Game Sales data set 
+              found in Kaggle. The link can be found <a href="https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings">here</a>. In the project 
+              I perform:
+              <ul class="unordered-list">
+                <li>Simple Data Analysis and Cleaning</li>
+                <li>Exploratory Analysis for each attribute (column) present in the data set</li>
+                <li>Data Visualization using Heat Maps, Histograms and Bar plots</li>
+                <li>Predicting Region and Global Sales using different regression models and drawing residual plots</li>
+              </ul>
+            </p>
+            <p>
+              The report that details the entire project can be found <a href="#">here</a>
+            </p>
+            <!-- <p>The description of the scene is as follows: <br> -->
+        </div>
+    </div>
+  </section>
+  <section class="portfolio_details_area section_gap">
+    <div class="container">
+        <div class="portfolio_details_inner">
+            <div class="row">
+              <div class="col-lg-6">
+                  <div class="left_img">
+                      <img class="img-fluid" src="img/jdbc.png" alt=""> 
+                      <!-- <video width="640" height="480" autoplay loop>
+                        <source src="videos/ProjectDemo3.mp4" type="video/mp4"> -->
+                        <!-- <source src="movie.ogg" type="video/ogg"> -->
+                        <!-- Your browser does not support the video tag.
+                      </video> --> 
+                  </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">JDBC Project</h4>
+                        <p>
+                          A Java program which implements select features of a hospital management system using JDBC programming.
+                        </p>
+                        <ul class="list">
+                            <!-- <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i -->
+                                    <!-- class="fa fa-star"></i></li> -->
+                            <!-- <li><span>Client</span>: colorlib</li> -->
+                            <!-- <li><span>Website</span>: colorlib.com</li> -->
+                            <!-- <li><span>Completed</span>: 17 Aug 2018</li> -->
+                            <a href="#" class="genric-btn success-border circle arrow">Code</a>
+                            <a href="#" class="genric-btn primary-border circle arrow">Report</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p>This is a simple project which implements a base structure and select features of a hospital management system with special emphasis on 
+              enabling JDBC programming to develop this system. It contains the following features:
+              <ul class="unordered-list">
+                <li>A Receptionist can register new Patients into the system.</li>
+                <li>A Receptionsit can assign Patients to a free Doctor.</li>
+                <li>A Doctor can visit a Patient to finish consultation and become free.</li>
+                <li>A Manager can see the list of rooms in the hospital that are free</li>
+              </ul>
+            </p>
+            <p>
+              An important point to note here is that Rooms are assigned automatically by the system when the Receptionist assign a Patient to a Doctor. 
+                The report that details the entire project can be found <a href="#">here</a>
+            </p>
+            <!-- <p>The description of the scene is as follows: <br> -->
+        </div>
+    </div>
+  </section>
+  <section class="portfolio_details_area">
+    <div class="container">
+        <div class="portfolio_details_inner">
+            <div class="row">
+              <div class="col-lg-6">
+                  <div class="left_img">
+                      <img class="img-fluid" src="img/PDS.png" alt=""> 
+                      <!-- <video width="640" height="480" autoplay loop>
+                        <source src="videos/ProjectDemo3.mp4" type="video/mp4"> -->
+                        <!-- <source src="movie.ogg" type="video/ogg"> -->
+                        <!-- Your browser does not support the video tag.
+                      </video> --> 
+                  </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">PDS Application</h4>
+                        <p>
+                          This project is a PDS (Personal Data Store) written in C to implement database operations.
+                        </p>
+                        <ul class="list">
+                            <!-- <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i -->
+                                    <!-- class="fa fa-star"></i></li> -->
+                            <!-- <li><span>Client</span>: colorlib</li> -->
+                            <!-- <li><span>Website</span>: colorlib.com</li> -->
+                            <!-- <li><span>Completed</span>: 17 Aug 2018</li> -->
+                            <a href="#" class="genric-btn success-border circle arrow">Code</a>
+                            <a href="#" class="genric-btn primary-border circle arrow">Report</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p>This is project is a simple PDS (Personal Data Store) in C language to implement database operations. It also implements index based 
+              querying for search. It simulates an imagining of a Game Store/Management System (somewhat similar to Steam). It has the following features:
+              <ul class="unordered-list">
+                <li>A User can create an Account and view/modify Account Details.</li>
+                <li>A User can deposity money into the Account.</li>
+                <li>A User can browse the Game Library and using deposited money, can buy a Game.</li>
+                <li>A User can view all his details including the games he/she owns and can Delete his Account as well.</li>
+              </ul>
+            </p>
+            <p>
+              An important point to note here is that all database operations here are implemented in C from scratch. 
+              The report also details testing results for various database operations.
+              The report can be found <a href="#">here</a>
+            </p>
+            <!-- <p>The description of the scene is as follows: <br> -->
+        </div>
+    </div>
+  </section>
+  <section class="portfolio_details_area section_gap">
+    <div class="container">
+        <div class="portfolio_details_inner">
+            <div class="row">
+              <div class="col-lg-6">
+                  <div class="left_img">
+                      <img class="img-fluid" src="img/MIPS.png" alt=""> 
+                      <!-- <video width="640" height="480" autoplay loop>
+                        <source src="videos/ProjectDemo3.mp4" type="video/mp4"> -->
+                        <!-- <source src="movie.ogg" type="video/ogg"> -->
+                        <!-- Your browser does not support the video tag.
+                      </video> --> 
+                  </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">MIPS Processor</h4>
+                        <p>
+                          This is a Hardware Description in Verilog of a non-pipelined MIPS processor with instructions to perform a 2x2 Matrix Multiplication
+                        </p>
+                        <ul class="list">
+                            <!-- <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i -->
+                                    <!-- class="fa fa-star"></i></li> -->
+                            <!-- <li><span>Client</span>: colorlib</li> -->
+                            <!-- <li><span>Website</span>: colorlib.com</li> -->
+                            <!-- <li><span>Completed</span>: 17 Aug 2018</li> -->
+                            <a href="#" class="genric-btn success-border circle arrow">Code</a>
+                            <!-- <a href="#" class="genric-btn primary-border circle arrow">Report</a> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p>This is a Hardware Description in Verilog of a non-pipelined MIPS processor with instructions to perform a 2x2 Matrix Multiplication
+              <ul class="unordered-list">
+                <li>A Receptionist can register new Patients into the system.</li>
+                <li>A Receptionsit can assign Patients to a free Doctor.</li>
+                <li>A Doctor can visit a Patient to finish consultation and become free.</li>
+                <li>A Manager can see the list of rooms in the hospital that are free</li>
+              </ul>
+            </p>
+            <p>
+              An important point to note here is that Rooms are assigned automatically by the system when the Receptionist assign a Patient to a Doctor. 
+                The report that details the entire project can be found <a href="#">here</a>
+            </p>
+            <!-- <p>The description of the scene is as follows: <br> -->
+        </div>
+    </div>
+  </section>
+  <section class="portfolio_details_area ">
+    <div class="container">
+        <div class="portfolio_details_inner">
+            <div class="row">
+              <div class="col-lg-6">
+                  <div class="left_img">
+                      <!-- <img class="img-fluid" src="img/Breakout.png" alt="">  -->
+                        <video width="640" height="480" autoplay loop>
+                        <source src="videos/breakout2.mp4" type="video/mp4"> -->
+                        <!-- <source src="movie.ogg" type="video/ogg"> -->
+                        Your browser does not support the video tag.
+                      </video> 
+                  </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Breakout</h4>
+                        <p>
+                          This is the famous ATARI game 'breakout' which was created by our team for a Python semester project.
+                        </p>
+                        <ul class="list">
+                            <!-- <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i -->
+                                    <!-- class="fa fa-star"></i></li> -->
+                            <!-- <li><span>Client</span>: colorlib</li> -->
+                            <!-- <li><span>Website</span>: colorlib.com</li> -->
+                            <!-- <li><span>Completed</span>: 17 Aug 2018</li> -->
+                            <a href="#" class="genric-btn success-border circle arrow">Code</a>
+                            <a href="#" class="genric-btn primary-border circle arrow">Report</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p>
+              This is the famous ATARI game 'breakout' which was created by our team for a Python semester project. It contains
+              the following features:
+              <ul class="unordered-list">
+                <li>Two different levels that you can play.</li>
+                <li>Two different game modes (standard mode and warp mode).</li>
+                <li>Three different difficulty settings (easy,medium and hard).</li>
+                <li>Two different power-ups which are Explosion and Freezing.</li>
+                <li>Sound Effects for various events in the game.</li>
+              </ul>
+            </p>
+            <p>
+              The game plays like the traditional Breakout game except we have peppered the game with many different game modes and power ups. 
+              The entire process of building the game can be found in the report <a href="#">here</a>.
+            </p>
+            <!-- <p>The description of the scene is as follows: <br> -->
         </div>
     </div>
   </section>
@@ -175,7 +535,7 @@
                     <div class="footer_top flex-column">
                         <div class="footer_logo">
                             <a href="#">
-                                <img src="img/logo.png" alt="">
+                                <img src="img/truelogo.png" alt="">
                             </a>
                             <h4>Follow Me</h4>
                         </div>
