@@ -73,26 +73,26 @@
     <!--================ End Banner Area =================-->
 
 	<!--================Start Portfolio Details Area =================-->
-	<a id="Breakout Project"></a>
+	<a id="Visual Recognition Project"></a>
   <section class="portfolio_details_area section_gap_top">
     <div class="container">
         <div class="portfolio_details_inner">
             <div class="row">
               <div class="col-lg-6">
                   <div class="left_img">
-                      <!-- <img class="img-fluid" src="img/Breakout.png" alt="">  -->
-                        <video width="640" height="480" autoplay loop>
-                        <source src="videos/breakout2.mp4" type="video/mp4"> -->
+                      <img class="img-fluid" src="img/visualrecognition.png" alt=""> 
+                      <!-- <video width="640" height="480" autoplay loop>
+                        <source src="videos/ProjectDemo3.mp4" type="video/mp4"> -->
                         <!-- <source src="movie.ogg" type="video/ogg"> -->
-                        Your browser does not support the video tag.
-                      </video> 
+                        <!-- Your browser does not support the video tag.
+                      </video> --> 
                   </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Breakout</h4>
+                        <h4 class="text-uppercase">Visual Recognition Project</h4>
                         <p>
-                          This is the famous ATARI game 'breakout' which was created by our team for a Python semester project using Pygame library.
+                          This project aims to build a dress recognition system that will recognize the type of dress that a person is wearing in an image. 
                         </p>
                         <ul class="list">
                             <!-- <li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i -->
@@ -100,32 +100,31 @@
                             <!-- <li><span>Client</span>: colorlib</li> -->
                             <!-- <li><span>Website</span>: colorlib.com</li> -->
                             <!-- <li><span>Completed</span>: 17 Aug 2018</li> -->
-                            <a href="https://github.com/Ram-is-me/breakout" class="genric-btn success-border circle arrow">Code</a>
-                            <a href="https://github.com/Ram-is-me/breakout/blob/master/Breakout%20Documentation.docx" class="genric-btn primary-border circle arrow">Report</a>
+                            <a href="https://github.com/Ram-is-me/Dress-Detection" class="genric-btn success-border circle arrow">Code</a>
+                            <a href="https://github.com/Ram-is-me/Dress-Detection/blob/master/Report.pdf" class="genric-btn primary-border circle arrow">Report</a>
                         </ul>
                     </div>
                 </div>
             </div>
-            <p>
-              This is the famous ATARI game 'breakout' which was created by our team for a Python semester project using Pygame library. It contains
-              the following features:
+            <p>Given images of people walking through a doorway, the project's aim was to recognize the different dresses worn by the people entering through the doorway in real time.
+                This was mainly achieved by exploring two different solutions. One was to use a person detector to find a bounding box and then run a classification model on top of the bounding box. 
+                However, this idea was scrapped in favour of buulding a one shot detector which directly detects all the different dresses present in the image. In particular, This project achieves the following:
               <ul class="unordered-list">
-                <li>Two different levels that you can play.</li>
-                <li>Two different game modes (standard mode and warp mode).</li>
-                <li>Three different difficulty settings (easy,medium and hard).</li>
-                <li>Two different power-ups which are Explosion and Freezing.</li>
-                <li>Sound Effects for various events in the game.</li>
+                <li>An exploration of two different Deep Learning based object detection models such as ResNet and YOLO(You Only Look Once)</li>
+                <li>The application of both the models for the given problem.</li>
+                <li>Average prediction time for a given image is 8ms on a NVIDIA 1050Ti, which is sufficient for Real Time Prediction</li>
+                <li>The documentation of data, training steps and results, as presented in the report</li>
               </ul>
             </p>
             <p>
-              The game plays like the traditional Breakout game except we have peppered the game with many different game modes and power ups. 
-              The entire process of building the game can be found in the report <a href="https://github.com/Ram-is-me/breakout/blob/master/Breakout%20Documentation.docx">here</a>.
+              An important point to note here is that the images must be of a certain orientation and type for the model to work best (looking straight at the dresses). 
+                The report that details the entire project can be found <a href="https://github.com/Ram-is-me/Dress-Detection/blob/master/Report.pdf">here</a>
             </p>
             <!-- <p>The description of the scene is as follows: <br> -->
         </div>
     </div>
   </section>
-    <!--================End Portfolio Details Area =================-->
+  <!--================End Portfolio Details Area =================-->
         
     <!--================Footer Area =================-->
 	<footer class="footer_area">
